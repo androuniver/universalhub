@@ -140,7 +140,7 @@ Tab:AddButton({
 	   
       	OrionLib:MakeNotification({
         Name = "Universal Hub",
-	    Content = "Unnamed  Has Been Executed! (Discord Not Found)",
+	    Content = "Unnamed esp Has Been Executed! (Discord Not Found)",
 	    Image = "",
 	    Time = 5
         })
@@ -173,7 +173,7 @@ Tab:AddButton({
 	   
       	OrionLib:MakeNotification({
         Name = "Universal Hub",
-	    Content = "Anti Afk Has Been Executed!",
+	    Content = "Fates Aimbot Has Been Executed!",
 	    Image = "",
 	    Time = 5
         })
@@ -376,11 +376,11 @@ Tab:AddButton({
       		
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/StepBroFurious/Script/main/FuriousFall.lua"))()
       		
-      		OrionLib:MakeNotification({
-        Name = "Universal Hub",
-	    Content = "Furious Fall Has Been Executed! (Copied Discord Invite)",
-	    Image = "",
-	    Time = 5
+      	       OrionLib:MakeNotification({
+               Name = "Universal Hub",
+	       Content = "Furious Fall Has Been Executed! (Copied Discord Invite)",
+	       Image = "",
+	       Time = 5
         })
       	setclipboard("https://discord.gg/CQnytxYUxA") 
       		
@@ -414,7 +414,7 @@ Tab:AddButton({
       	 
       	 OrionLib:MakeNotification({
         Name = "Universal Hub",
-	    Content = "V.G Hub Has Been Executed! (Copied Discord Invite)",
+	    Content = "Kolgie Hub Has Been Executed! (Copied Discord Invite)",
 	    Image = "",
 	    Time = 5
         })
@@ -600,7 +600,7 @@ Tab:AddButton({
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/CounterBlox.lua', true))()
       		OrionLib:MakeNotification({
         Name = "Universal Hub",
-	    Content = "EvoV2 Has Been Executed! (Discord Not Found)",
+	    Content = "Hexagon Has Been Executed! (Discord Not Found)",
 	    Image = "",
 	    Time = 5
         })
@@ -643,8 +643,6 @@ Tab:AddButton({
 
 -- Random Games Tab
 
--- Random Games
-
 local Tab = Window:MakeTab({
 	Name = "Random Games",
 	Icon = "",
@@ -659,7 +657,7 @@ Tab:AddParagraph("How to bypass linkvertise -","To bypass linkvertise to get the
 
 -- Features
 
-Tab:AddParagraph("Features -","1. Bedwars, 2. Dungeon Quest, 3. Murder Mystery 2, 4. Jailbreak, 5. MadCity, 6. Adopt Me, 7. Pet Simulator X, 8. Sonic Speed Simulator ")
+Tab:AddParagraph("Features -","1. Bedwars, 2. Dungeon Quest, 3. Murder Mystery 2, 4. Jailbreak, 5. MadCity, 6. Adopt Me, 7. Pet Simulator X ")
 
 -- Bed Wars
 
@@ -783,27 +781,6 @@ Tab:AddButton({
 
 Tab:AddButton({
 	Name = "7. Pet Simulator X",
-	Callback = function()
-      	
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
-      	
-      	OrionLib:MakeNotification({
-        Name = "Universal Hub",
-	    Content = "MasterHub V4 Has Been Executed! (Copied Discord Invite)",
-	    Image = "",
-	    Time = 5
-        })
-        setclipboard("https://discord.gg/CCVsKQ79sQ")
-      	
-  	end
-})
-
--- Sonic Speed Simulator
-
--- Pet Simulator X
-
-Tab:AddButton({
-	Name = "8. Sonic Speed Simulator",
 	Callback = function()
       	
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
