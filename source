@@ -798,6 +798,8 @@ Tab:AddButton({
   	end
 })
 
+-- more games when u guys join the discord and suggest them!
+
 -- Thanks
 
 OrionLib:MakeNotification({
