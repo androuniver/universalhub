@@ -41,7 +41,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Updates"," [+] Added, Project Baki 2, WestBound, Energy Assault! (4/29/2022)")
+Tab:AddParagraph("Updates"," [+] Added - Project Baki 2, WestBound, Energy Assault, Wild West! (4/29/2022)")
 
 -- Universal script tab
 
