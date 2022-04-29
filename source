@@ -196,7 +196,7 @@ Tab:AddParagraph("How to bypass linkvertise -","To bypass linkvertise to get the
 
 -- Features
 
-Tab:AddParagraph("Features -","1. Anime Battle Arena, 2. Blox Fruits, 3. Anime Fighters Simulator, 4. A one piece game, 5. Ro Ghoul, 6. King Legacy, 7. Dragon Ball Z FS, 8. Anime Dimensions, 9. Shindo Life, 10. DemonFall, 11. Stand Upright : Rebooted, 12. Your Bizarre Adventure")
+Tab:AddParagraph("Features -","1. Anime Battle Arena, 2. Blox Fruits, 3. Anime Fighters Simulator, 4. A one piece game, 5. Ro Ghoul, 6. King Legacy, 7. Dragon Ball Z FS, 8. Anime Dimensions, 9. Shindo Life, 10. DemonFall, 11. Stand Upright : Rebooted, 12. Your Bizarre Adventure, 13. Project Baki 2")
 
 -- Anime Battle Arena
 
@@ -422,6 +422,22 @@ Tab:AddButton({
   end
 })
 
+-- Project Baki 2 loadstring(game:HttpGet("https://pastebin.com/raw/5gr5tNPD", true))();
+
+Tab:AddButton({
+	Name = "13. Project Baki 2",
+	Callback = function()
+      		
+  	    loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/somehub.lua"))()
+      	 
+      	 OrionLib:MakeNotification({
+        Name = "Universal Hub",
+	    Content = "Lazy Hub Has Been Executed! (Discord Not Found)",
+	    Image = "",
+	    Time = 5
+        })
+  end
+})
 
 -- Black people games Tab
 
@@ -535,7 +551,7 @@ Tab:AddParagraph("How to bypass linkvertise -","To bypass linkvertise to get the
 
 -- Features
 
-Tab:AddParagraph("Features -","1. Arsenal, 2. Phantom Forces, 3. Bad Business, 4. Counter Blox, 5. Big Paintball, 6. Strucid ")
+Tab:AddParagraph("Features -","1. Arsenal, 2. Phantom Forces, 3. Bad Business, 4. Counter Blox, 5. Big Paintball, 6. Strucid, 7. Energy Assault")
 
 -- Arsenal
 
@@ -641,6 +657,24 @@ Tab:AddButton({
      end
 })
 
+-- Energy Assault
+
+Tab:AddButton({
+	Name = "7.. Energy Assault",
+	Callback = function()
+      		
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-SilentAim/main/main.lua"))()
+	    
+      	OrionLib:MakeNotification({
+        Name = "Universal Hub",
+	    Content = "Universal Silent Aim Has Been Executed! Press RightControl to open GUI!! USE FindPartOnRayWithIgnoreList IN OPTIONS (Discord Not Found)",
+	    Image = "",
+	    Time = 15
+        })
+     end
+})
+
+
 -- Random Games Tab
 
 local Tab = Window:MakeTab({
@@ -657,7 +691,7 @@ Tab:AddParagraph("How to bypass linkvertise -","To bypass linkvertise to get the
 
 -- Features
 
-Tab:AddParagraph("Features -","1. Bedwars, 2. Dungeon Quest, 3. Murder Mystery 2, 4. Jailbreak, 5. MadCity, 6. Adopt Me, 7. Pet Simulator X ")
+Tab:AddParagraph("Features -","1. Bedwars, 2. Dungeon Quest, 3. Murder Mystery 2, 4. Jailbreak, 5. MadCity, 6. Adopt Me, 7. Pet Simulator X, 8. WestBound ")
 
 -- Bed Wars
 
@@ -671,7 +705,7 @@ Tab:AddButton({
         Name = "Universal Hub",
 	    Content = "Vape V4 Has Been Executed! (Copied Discord Invite)",
 	    Image = "",
-	    Time = 5
+	    Time = 5    
         })
         setclipboard("https://discord.gg/vxpe")
       		
@@ -796,7 +830,23 @@ Tab:AddButton({
   	end
 })
 
--- 
+-- Westbound loadstring(game:HttpGet(("https://raw.githubusercontent.com/Drifter0507/scripts/main/westbound"),true))()
+
+Tab:AddButton({
+	Name = "8. WestBound",
+	Callback = function()
+      	
+      	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Drifter0507/scripts/main/westbound"),true))()
+      	
+      	OrionLib:MakeNotification({
+        Name = "Universal Hub",
+	    Content = "WestBound GUI Has Been Executed! (Discord Not Found)",
+	    Image = "",
+	    Time = 5
+        })
+      	
+  	end
+})
 
 -- Thanks
 
