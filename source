@@ -41,7 +41,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Updates"," [+] Released the script!")
+Tab:AddParagraph("Updates"," [+] Added, Project Baki 2, WestBound, Energy Assault! (4/29/2022)")
 
 -- Universal script tab
 
@@ -660,7 +660,7 @@ Tab:AddButton({
 -- Energy Assault
 
 Tab:AddButton({
-	Name = "7.. Energy Assault",
+	Name = "7. Energy Assault",
 	Callback = function()
       		
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-SilentAim/main/main.lua"))()
@@ -691,7 +691,7 @@ Tab:AddParagraph("How to bypass linkvertise -","To bypass linkvertise to get the
 
 -- Features
 
-Tab:AddParagraph("Features -","1. Bedwars, 2. Dungeon Quest, 3. Murder Mystery 2, 4. Jailbreak, 5. MadCity, 6. Adopt Me, 7. Pet Simulator X, 8. WestBound ")
+Tab:AddParagraph("Features -","1. Bedwars, 2. Dungeon Quest, 3. Murder Mystery 2, 4. Jailbreak, 5. MadCity, 6. Adopt Me, 7. Pet Simulator X, 8. WestBound, 9. Wild West")
 
 -- Bed Wars
 
@@ -830,22 +830,41 @@ Tab:AddButton({
   	end
 })
 
--- Westbound loadstring(game:HttpGet(("https://raw.githubusercontent.com/Drifter0507/scripts/main/westbound"),true))()
+-- Westbound 
 
 Tab:AddButton({
-	Name = "8. WestBound",
+	Name = "8. Westbound",
 	Callback = function()
-      	
-      	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Drifter0507/scripts/main/westbound"),true))()
-      	
+      		
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+	   
       	OrionLib:MakeNotification({
         Name = "Universal Hub",
-	    Content = "WestBound GUI Has Been Executed! (Discord Not Found)",
+	    Content = "Fates Aimbot Has Been Executed!",
+	    Image = "",
+	    Time = 5
+        })	
+      		
+  	end    
+})
+
+-- Wild West
+
+Tab:AddButton({
+	Name = "9. Wild West",
+	Callback = function()
+      		
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+      	 
+      	 OrionLib:MakeNotification({
+        Name = "Universal Hub",
+	    Content = "V.G Hub Has Been Executed! (Copied Discord Invite)",
 	    Image = "",
 	    Time = 5
         })
-      	
-  	end
+      	setclipboard("https://discord.gg/JkrYsJXSJd") 
+      		
+  	end    
 })
 
 -- Thanks
