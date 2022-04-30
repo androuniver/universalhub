@@ -41,7 +41,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Updates"," [+] Added - Project Baki 2, WestBound, Energy Assault, Wild West! (4/29/2022)")
+Tab:AddParagraph("Updates"," [+] Added - Balling Section, Reaper 2, The Lift (4/30/2022)")
 
 -- Universal script tab
 
@@ -190,13 +190,13 @@ local Tab = Window:MakeTab({
 
 -- Info
 
-Tab:AddParagraph("Anime Games Section -","This section consists of Anime genre games on roblox. Taken from various scripts and hubs which might have linkvertise or have keys in their discord.")
+Tab:AddParagraph("Anime Games Section -","This section consists of Anime games on roblox. Taken from various scripts and hubs which might have linkvertise or have keys in their discord.")
 
 Tab:AddParagraph("How to bypass linkvertise -","To bypass linkvertise to get the key use bypass.vip, This website works very efficiently.")
 
 -- Features
 
-Tab:AddParagraph("Features -","1. Anime Battle Arena, 2. Blox Fruits, 3. Anime Fighters Simulator, 4. A one piece game, 5. Ro Ghoul, 6. King Legacy, 7. Dragon Ball Z FS, 8. Anime Dimensions, 9. Shindo Life, 10. DemonFall, 11. Stand Upright : Rebooted, 12. Your Bizarre Adventure, 13. Project Baki 2")
+Tab:AddParagraph("Features -","1. Anime Battle Arena, 2. Blox Fruits, 3. Anime Fighters Simulator, 4. A one piece game, 5. Ro Ghoul, 6. King Legacy, 7. Dragon Ball Z FS, 8. Anime Dimensions, 9. Shindo Life, 10. DemonFall, 11. Stand Upright : Rebooted, 12. Your Bizarre Adventure, 13. Project Baki 2, 14. Reaper 2")
 
 -- Anime Battle Arena
 
@@ -422,7 +422,7 @@ Tab:AddButton({
   end
 })
 
--- Project Baki 2 loadstring(game:HttpGet("https://pastebin.com/raw/5gr5tNPD", true))();
+-- Project Baki 2 
 
 Tab:AddButton({
 	Name = "13. Project Baki 2",
@@ -433,6 +433,23 @@ Tab:AddButton({
       	 OrionLib:MakeNotification({
         Name = "Universal Hub",
 	    Content = "Lazy Hub Has Been Executed! (Discord Not Found)",
+	    Image = "",
+	    Time = 5
+        })
+  end
+})
+
+-- Reaper 2 
+
+Tab:AddButton({
+	Name = "14. Reaper 2",
+	Callback = function()
+      		
+  	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/Reaper2'),true))()
+      	 
+      	 OrionLib:MakeNotification({
+        Name = "Universal Hub",
+	    Content = "Reaper 2 GUI Has Been Executed! (Discord Not Found)",
 	    Image = "",
 	    Time = 5
         })
@@ -691,7 +708,7 @@ Tab:AddParagraph("How to bypass linkvertise -","To bypass linkvertise to get the
 
 -- Features
 
-Tab:AddParagraph("Features -","1. Bedwars, 2. Dungeon Quest, 3. Murder Mystery 2, 4. Jailbreak, 5. MadCity, 6. Adopt Me, 7. Pet Simulator X, 8. WestBound, 9. Wild West")
+Tab:AddParagraph("Features -","1. Bedwars, 2. Dungeon Quest, 3. Murder Mystery 2, 4. Jailbreak, 5. MadCity, 6. Adopt Me, 7. Pet Simulator X, 8. WestBound, 9. Wild West, 10. The Lift")
 
 -- Bed Wars
 
@@ -864,6 +881,96 @@ Tab:AddButton({
         })
       	setclipboard("https://discord.gg/JkrYsJXSJd") 
       		
+  	end    
+})
+
+-- The lift
+
+Tab:AddButton({
+	Name = "10. The Lift",
+	Callback = function()
+      		
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/timkaMLG1/TheLiftFucker/main/main.lua",true))()
+      	 
+      	 OrionLib:MakeNotification({
+        Name = "Universal Hub",
+	    Content = "V.G Hub Has Been Executed! (Copied Discord Invite)",
+	    Image = "",
+	    Time = 5
+        })
+      	setclipboard("https://discord.gg/kQUhG7Qbub")	
+  	end    
+})
+
+-- Basketball Games Tab
+
+local Tab = Window:MakeTab({
+	Name = "Balling",
+	Icon = "",
+	PremiumOnly = false
+})
+
+-- Info
+
+Tab:AddParagraph("Basketball Games Section -","This section consists of Basketball games. Taken from various script and hubs which might have linkvertise or have keys in their discord.")
+
+Tab:AddParagraph("How to bypass linkvertise -","To bypass linkvertise to get the key use bypass.vip, This website works very efficiently.")
+
+-- Features
+
+Tab:AddParagraph("Features -","1. Hoopz, 2. Phenom, 3. HoopVerse")
+
+-- Hoopz
+
+Tab:AddButton({
+	Name = "1. Hoopz",
+	Callback = function()
+      		
+      	loadstring(game:HttpGet("https://paste.ee/r/GWYx2", true))()
+      	 
+      	 OrionLib:MakeNotification({
+        Name = "Universal Hub",
+	    Content = "Loompic Aimbot Has Been Executed! (Copied Discord Invite)",
+	    Image = "",
+	    Time = 5
+        })
+       setclipboard("https://discord.gg/szhwa9G5hx")
+  	end    
+})
+
+-- Phenom
+
+Tab:AddButton({
+	Name = "2. Phenom",
+	Callback = function()
+      		
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Loompic/Phenom-Aimbot/main/Bot"))()
+      
+      	 OrionLib:MakeNotification({
+        Name = "Universal Hub",
+	    Content = "Loompic Aimbot Has Been Executed! (Copied Discord Invite)",
+	    Image = "",
+	    Time = 5
+        })
+       setclipboard("https://discord.gg/szhwa9G5hx")
+  	end    
+})
+
+-- HoopVerse
+
+Tab:AddButton({
+	Name = "3. HoopVerse",
+	Callback = function()
+      		
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/Loompic/HoopVerse/main/Aimbot"))()
+      	 
+      	 OrionLib:MakeNotification({
+        Name = "Universal Hub",
+	    Content = "Loompic Aimbot Has Been Executed! (Copied Discord Invite)",
+	    Image = "",
+	    Time = 5
+        })
+       setclipboard("https://discord.gg/szhwa9G5hx")
   	end    
 })
 
