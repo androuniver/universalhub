@@ -41,7 +41,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Updates"," [+] Added - Balling Section, Reaper 2, The Lift (4/30/2022)")
+Tab:AddParagraph("Updates"," [+] Added - Youtube Life (5/3/2022)")
 
 -- Universal script tab
 
@@ -708,7 +708,7 @@ Tab:AddParagraph("How to bypass linkvertise -","To bypass linkvertise to get the
 
 -- Features
 
-Tab:AddParagraph("Features -","1. Bedwars, 2. Dungeon Quest, 3. Murder Mystery 2, 4. Jailbreak, 5. MadCity, 6. Adopt Me, 7. Pet Simulator X, 8. WestBound, 9. Wild West, 10. The Lift")
+Tab:AddParagraph("Features -","1. Bedwars, 2. Dungeon Quest, 3. Murder Mystery 2, 4. Jailbreak, 5. MadCity, 6. Adopt Me, 7. Pet Simulator X, 8. WestBound, 9. Wild West, 10. The Lift, 11. Youtube Life")
 
 -- Bed Wars
 
@@ -899,6 +899,23 @@ Tab:AddButton({
 	    Time = 5
         })
       	setclipboard("https://discord.gg/kQUhG7Qbub")	
+  	end    
+})
+
+-- Youtube life
+
+Tab:AddButton({
+	Name = "11. Youtube Life",
+	Callback = function()
+      		
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/main/YouTube%20Life/Auto%20Farm.lua"))()
+      	 
+      	 OrionLib:MakeNotification({
+        Name = "Universal Hub",
+	    Content = "Vynixius GUI Has Been Executed! (Discord Not Found)",
+	    Image = "",
+	    Time = 5
+        })
   	end    
 })
 
