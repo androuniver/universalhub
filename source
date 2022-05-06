@@ -30,6 +30,13 @@ Tab:AddTextbox({
             Sound:Play()
             Sound.Volume = 5
             
+            OrionLib:MakeNotification({
+            Name = "Universal Hub",
+            Content = "Correct Key! Loading Script...",
+            Image = "rbxassetid://",
+            Time = 5
+            }) 
+              
             loadstring(game:HttpGet('https://raw.githubusercontent.com/androuniver/universalhubv2/main/master'))() --script
         
         
